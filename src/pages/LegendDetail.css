@@ -1,0 +1,65 @@
+@font-face {
+    font-family: TT Lakes w05;
+    src: url(../fonts/tt-lakes-neue-w05-regular.otf);
+  }
+
+  p {
+    text-align: center;
+    font-family: TT Lakes w05;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #name {
+    text-align: center;
+    font-weight: 900;
+    font-family: TT Lakes w05;
+    font-size: 48px;
+    color: white;
+  }
+
+  #descr {
+    text-align: center;
+    color: rgb(110, 110, 110);
+    font-family: TT Lakes w05;
+    font-size: 24px;
+  }
+
+  .containerTop {
+    display: flex;
+    overflow: auto;
+    padding-bottom: 10px;
+  }
+
+  
+  .card {
+    display: flex;
+    border-radius: 24px;
+    background: #222121;
+    border: 3px solid #e94141;
+    padding: 36px;
+    width: 560px;
+    height: 250px;
+    margin:auto;
+    margin-top: 24px;
+  }
+  
+  .description {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  #summary {
+    color: rgb(255, 251, 251);
+    display: flex;
+    font-family: TT Lakes w05;
+    padding-right: 120px;
+    padding-left: 120px;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 25%;
+  }

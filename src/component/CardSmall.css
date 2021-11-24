@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    cursor: pointer;
+  }
+  
+  .legendphoto {
+    width: 200px;
+    height: 220px;
+    border-radius: 12px;
+  }
+  
+  .description {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  #title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+  }
+  
+  #desc {
+    color: grey;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,51 @@
+p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .containerTop {
+    display: flex;
+    overflow: auto;
+    padding-bottom: 10px;
+  }
+  
+  .cardProfile {
+    display: flex;
+    padding: 20px;
+    width: 425px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+  
+  .userimg {
+    display: flex;
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    border: 2.5px solid #e94141;
+  }
+  
+  #nama {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Verdana;
+  }
+
+  #desc_profile {
+    color: rgb(163, 163, 163);
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: Verdana;
+  }
+
+  #nim {
+    color: grey;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+  }
