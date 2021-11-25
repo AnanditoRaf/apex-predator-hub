@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Blocktastic;
+  src: url(./fonts/blocktastic.otf);
+}
+
 body {
   background-color: #573c3b;
 }
@@ -5,15 +10,14 @@ body {
 #titleGroup {
   margin: 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
+  font-stretch: expanded;
   color: rgb(255, 255, 255);
-  font-family: Verdana;
-  font-weight: bolder;
-  font-size: 16px;
+  font-family: Blocktastic;
 }
 
 header {
-  background-color: #e94141;
+  background-color: #e9414170;
   margin: auto;
   text-align: center;
   padding: 10px 0;

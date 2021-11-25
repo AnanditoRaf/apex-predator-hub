@@ -1,0 +1,70 @@
+@font-face {
+    font-family: TT Lakes w05;
+    src: url(../fonts/tt-lakes-neue-w05-regular.otf);
+  }
+  
+  #url {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .containerTop {
+    display: flex;
+    overflow: auto;
+    padding-bottom: 10px;
+  }
+
+  #header{
+    text-align: center;
+    font-family: TT Lakes w05;
+    color: white;
+    margin-right: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  #short_desc {
+      display: flex;
+    font-family: TT Lakes w05;
+    text-align: justify;
+    padding-left: 12px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 12px;
+    padding-right: 24px;
+    color: rgb(206, 206, 206);
+    line-height: 1.6;
+  }
+
+  #info {
+    font-family: TT Lakes w05;
+    text-align: center;
+  }
+
+  #link {
+    font-family: 'Segoe UI';
+    color:white;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .newsdetailed {
+      border: 3px;
+  }
+
+  .imgNewsDetail {
+    display: flex;
+    margin:auto;
+    margin-top: 12px;
+    width: 340px;
+    height: 180px;
+  }
+
+  

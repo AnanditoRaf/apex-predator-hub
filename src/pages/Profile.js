@@ -21,8 +21,8 @@ export default function Profile() {
         {Anggota.map((item, index) => (
         <Fragment key={item.id}>
           <CardProfile
-            nama={item.nama}
             img={item.img}
+            nama={item.nama}
             nim={item.nim}
             desc_profile={item.desc_profile}
             onClick={() => alert("Info " + item.id)}

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CardNews from "../component/CardNews"
+import "./News.css";
 
-export default function Todo() {
+export default function News() {
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch("https://api.mozambiquehe.re/news?lang=en-us&auth=edWbQGfu6eZOqeEqXgCo")
@@ -12,18 +13,16 @@ export default function Todo() {
   let navigate = useNavigate();
   return (
     <>
-          <p id="News">News Feed</p>
+          <p id="news">News Feed</p>
       {data.map((item) => (
         <div
           key={item.id}
-          onClick={() => navigate(`NewsDetail/${item.title}`, { state: item })}
-          style={{ backgroundColor: "salmon", cursor: "pointer" }}
+          style={{ cursor: "pointer" }}
         >
           <CardNews
           title={item.title}
-          short_desc={item.short_desc}
           imgNews={item.img}
-          link={item.link}
+          onClick={() => navigate(`NewsDetail/${item.title}`, { state: item })}
           />
         </div>
       ))}
