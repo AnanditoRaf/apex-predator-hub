@@ -23,6 +23,7 @@ function App() {
         <Route path="/legends" element={<Legends />}></Route>
         <Route path="/LegendDetail/:id" element={<LegendDetail />}></Route>
         <Route path="/News/NewsDetail/:id" element={<NewsDetail />}></Route>
+        <Route path="/NewsDetail/:id" element={<NewsDetail />}></Route>
       </Routes>
       <footer>
         <NavLink to="/News" className="iconWrapper">
